@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+    body {
+        font-size: 16px;
+    }
+    header h1 {
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .top_container {
+        width: 300px;
+        border: 0 solid #ffffff;
+        position: absolute;
+        padding-left: 40px;
+        padding-top: 36px;
+    }
+}

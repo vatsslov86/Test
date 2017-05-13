@@ -1,0 +1,99 @@
+/* Файл стилей */
+.top_container {
+    width: 300px;
+    border: 0 solid #ffffff;
+    position: absolute;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.container {
+    position: relative;
+    width: 96%;
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.breakpoint {
+    padding: 10px;
+    margin: 6px;
+    border: 2px solid #F1F1F1;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+.breakpoint > p {
+    font: bold 20px Arial,Helvetica,sans-serif;
+    color: #292929;
+}
+#contacts {
+    background: url("../images/footer.jpg");
+    height: 400px;
+    padding-top: 2px;
+    /*margin-top: 30px;*/
+}
+#contacts>.container {
+    float: left;
+}
+#map {
+    width: 500px;
+    height: 398px;
+    border: 0 solid #000000;
+    float: right;
+}
+
+/* Условная расстановка картинок для различных устройств  */
+
+.breakpoint { /* Одна колонка для смартфонов */
+    max-width: 80%;
+    display: inline-block;
+}
+@media (min-width: 420px) { /* Две колонки для планшетов */
+    .breakpoint {
+        max-width: 40%;
+    }
+}
+@media (min-width: 760px) { /* Четыре колонки для больших экранов */
+    .breakpoint {
+        max-width: 24%;
+    }
+}
+
+.column {
+    /*width: 96%;*/
+    /*max-width: 960px;*/
+    /*margin: 0 auto; /!* центрируем основной контейнер *!/*/
+}
+td.column img {
+    width: 40%;
+}
+img {
+    width: 100%;
+}
+header h1 {
+    color: #fff;
+    font: 60px Arial,Helvetica,sans-serif;
+    line-height: 58px;
+}
+body h2 {
+    font: 38px Arial,Helvetica,sans-serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+header strong {
+    color: #fff;
+    font: 25px Arial,Helvetica,sans-serif;
+}
+.center {
+    margin: 0 auto;
+}
+table td {
+    border: 0 solid #000;
+}
+.section_960 {
+    max-width: 960px;
+    width: 960px;
+}
+
+.uslugi {
+    width: 350px;
+    height: 200px;
+    border: 5px solid #F4F4F4;
+}

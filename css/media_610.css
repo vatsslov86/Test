@@ -1,0 +1,20 @@
+@media (max-width: 610px) {
+    body {
+        font-size: 14px;
+    }
+    header h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .top_container {
+        width: 200px;
+        border: 0 solid #ffffff;
+        position: absolute;
+        padding-left: 26px;
+        padding-top: 26px;
+    }
+    header strong {
+        color: #fff;
+        font: 16px Arial,Helvetica,sans-serif;
+    }
+}

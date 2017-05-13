@@ -1,0 +1,24 @@
+@media (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+    header h1 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    body h2 {
+        font: 30px Arial,Helvetica,sans-serif;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .top_container {
+        width: 200px;
+        position: absolute;
+        padding-left: 20px;
+        padding-top: 16px;
+    }
+    header strong {
+        color: #fff;
+        font: 14px Arial,Helvetica,sans-serif;
+    }
+}
