@@ -65,6 +65,10 @@
 			<p>Удаление вмятин</p>
 		</div>
 		<div class="breakpoint">
+			<img src="images/noize.jpg" width="960" alt="Шумоизоляция" />
+			<p>Шумоизоляция</p>
+		</div>
+		<div class="breakpoint">
 			<img src="images/zamena_stekla.jpg" width="960" alt="Вставка стёкол" />
 			<p>Вставка стёкол</p>
 		</div>
@@ -92,3 +96,4 @@
 </section>
 </body>
 </html>
+<!-- Комент -->
